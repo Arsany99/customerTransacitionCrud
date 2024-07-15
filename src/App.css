@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#root {
+  max-width: 100%;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+/* Custom DataTable Styles */
+.p-datatable-custom .p-datatable-header,
+.p-datatable-custom .p-datatable-thead > tr > th,
+.p-datatable-custom .p-datatable-tbody > tr > td {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.p-datatable-custom .p-datatable-header {
+  background-color: #f8fafc; /* Light grey background */
+  color: #374151; /* Dark text color */
+  font-weight: bold;
+}
+
+.p-datatable-custom .p-datatable-tbody > tr > td {
+  border-bottom: 1px solid #e5e7eb; /* Light grey border */
+}
+
+.p-datatable-custom .p-datatable-thead > tr > th {
+  background-color: #f8fafc; /* Light grey background */
+  color: #374151; /* Dark text color */
+  font-weight: bold;
+}
+
+.p-datatable-custom .p-datatable-tbody > tr:nth-child(even) > td {
+  background-color: #f1f5f9; /* Lighter grey for even rows */
+}
+
+.p-datatable-custom .p-datatable-tbody > tr:hover > td {
+  background-color: #e2e8f0; /* Slightly darker grey on hover */
+}
+
+
+
+.App{
+  width: 100%;
+}
