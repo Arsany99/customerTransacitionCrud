@@ -17,7 +17,12 @@
   padding: 1rem;
   font-size: 1rem;
 }
-
+.icon{
+  right: 5%;
+}
+.input{
+  margin-bottom: 2%;
+}
 .p-datatable-custom .p-datatable-header {
   background-color: #f8fafc; /* Light grey background */
   color: #374151; /* Dark text color */
@@ -43,7 +48,3 @@
 }
 
 
-
-.App{
-  width: 100%;
-}

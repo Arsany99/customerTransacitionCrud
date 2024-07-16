@@ -51,23 +51,23 @@ const CustomerTable = () => {
   return (
     <div className="datatable-filter-demo p-5 bg-gray-50">
       <h2 className="text-2xl font-bold mb-4">Customer Transaction Table</h2>
-      <div className="flex  m-3">
-        <div className="p-input-icon-left m-5 w-full">
-          <i className="pi  pi-search " />
+      <div className="input">
+        <div className="p-input-icon-left  m-5 w-full">
+          <i className="pi pi-search icon " />
           <InputText
             className="p-inputtext-lg  w-full mb-3 border-round-top p-3 text-xl"
             type="text"
             onChange={handleFilterByName}
-            placeholder="     Search by name"
+            placeholder="Search by name"
           />
         </div>
-        <div className="p-input-icon-left w-full">
-          <i className="pi pi-search" />
+        <div className="p-input-icon-left  w-full">
+          <i className="pi pi-search icon" />
           <InputText
-            className="p-inputtext-lg w-full text-center p-3 mb-3 border-round-top text-xl"
+            className="p-inputtext-lg  w-full text-center p-3 mb-3 border-round-top text-xl"
             type="number"
             onChange={handleFilterByAmount}
-            placeholder="    Search by amount"
+            placeholder="Search by amount"
           />
         </div>
       </div>

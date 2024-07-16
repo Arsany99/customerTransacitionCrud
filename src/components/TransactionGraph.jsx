@@ -29,8 +29,11 @@ const TransactionGraph = ({ customerId }) => {
             data: data,
             fill: true,
             borderColor: '#f0f',
-            tension: 2
-          }
+            tension: 2,
+            backgroundColor:['rgba(255, 159, 64, 0.7)',
+                        'rgba(153, 102, 255, 0.7)'],
+            
+          },
         ]
       });
 
